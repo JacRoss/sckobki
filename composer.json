@@ -1,0 +1,25 @@
+{
+  "name": "jackross/sckobki-helper",
+  "description": "sckobki validator",
+  "autoload": {
+    "psr-4": {
+      "Jackross\\Helpers\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Jackross\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "php": ">=7.1"
+  },
+  "scripts": {
+    "test": [
+      "phpunit tests"
+    ]
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7"
+  }
+}
