@@ -1,6 +1,6 @@
 <?php
 
-namespace Jackross\Helpers;
+namespace Jackross;
 
 /**
  * Class SkobkiHelper

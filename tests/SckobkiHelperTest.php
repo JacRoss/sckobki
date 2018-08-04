@@ -2,7 +2,7 @@
 
 namespace Jackross\Tests;
 
-use Jackross\Helpers\SckobkiHelper;
+use Jackross\SckobkiHelper;
 use PHPUnit\Framework\TestCase;
 
 class SckobkiHelperTest extends TestCase

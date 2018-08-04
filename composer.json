@@ -3,7 +3,7 @@
   "description": "sckobki validator",
   "autoload": {
     "psr-4": {
-      "Jackross\\Helpers\\": "src/"
+      "Jackross\\": "src/"
     }
   },
   "autoload-dev": {
