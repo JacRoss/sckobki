@@ -4,7 +4,7 @@ namespace Jackross;
 
 /**
  * Class SkobkiHelper
- * @package Jackross\Helpers
+ * @package Jackross
  */
 class SckobkiHelper
 {
@@ -16,12 +16,12 @@ class SckobkiHelper
      */
     public static function validate(string $text): bool
     {
-        if (mb_stripos('(', $text) === false || mb_stripos(')', $text) === false) {
+        if (mb_stripos($text, '(') === false || mb_stripos($text, ')') === false) {
             throw new \InvalidArgumentException();
         }
 
         $count = 0;
-        $len  = mb_strlen($text);
+        $len = mb_strlen($text);
 
         for ($i = 0; $i < $len; $i++) {
             $symbol = mb_substr($text, $i, 1);
