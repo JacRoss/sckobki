@@ -1,7 +1,5 @@
 <?php
 
-namespace Jackross\Tests;
-
 use Jackross\SckobkiHelper;
 use PHPUnit\Framework\TestCase;
 

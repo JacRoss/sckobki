@@ -1,1 +1,2 @@
-# sckobki
+# Example
+`SckobkiHelper::validate($string) : bool`

@@ -16,7 +16,7 @@ class SckobkiHelper
      */
     public static function validate(string $text): bool
     {
-        if (mb_stripos($text, '(') === false || mb_stripos($text, ')') === false) {
+        if (mb_stripos($text, '(') === false && mb_stripos($text, ')') === false) {
             throw new \InvalidArgumentException();
         }
 
